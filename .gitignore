@@ -1,0 +1,52 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled binaries (without extension)
+# LeetCode problem executables
+[0-9]*
+![0-9]*.c
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Preprocessor output
+*.i
+*.ii
+*.s
+
+# Assembly files (if not needed)
+*.asm
+
+# Dependency files
+*.d
+*.dep
