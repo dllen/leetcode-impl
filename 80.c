@@ -17,7 +17,7 @@ int removeDuplicates(int* nums, int numsSize) {
 
   int slow = 2;
 
-  for (int fast=0;fast < numsSize;fast++) {
+  for (int fast=2;fast < numsSize;fast++) {
     if(nums[fast]!=nums[slow-2]){
       nums[slow] = nums[fast];
       slow++;
@@ -29,8 +29,8 @@ int removeDuplicates(int* nums, int numsSize) {
 
 int main()
 {
-  int nums[6] = {1,1,1,2,2,3};
-  int size = 6;
+  int nums[3] = {1,2,3};
+  int size = 3;
   int newSize = removeDuplicates(nums, size);
   printArray(nums, newSize);
   return 0;
