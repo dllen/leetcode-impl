@@ -50,3 +50,6 @@ core.*
 # Dependency files
 *.d
 *.dep
+
+# Cache
+.cache
