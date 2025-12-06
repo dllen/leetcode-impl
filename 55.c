@@ -7,6 +7,7 @@
  */
 
 #include <math.h>
+#include <stdbool.h>
 #include <stdio.h>
 
 bool canJump(int *nums, int numsSize) {

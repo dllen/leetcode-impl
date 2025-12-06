@@ -72,6 +72,12 @@ Just compile problem 88:
 *   **Complexity**: Time O(n), Space O(1).
 
 
+
+### [125. Valid Palindrome](125.c)
+*   **Strategy**: Two Pointers.
+*   **Approach**: Use two pointers starting from both ends of the string. Move them towards each other, skipping non-alphanumeric characters. Compare the remaining characters case-insensitively. Use `isalnum` (C++) or `Character.isLetterOrDigit` (Java) to check for valid characters.
+*   **Complexity**: Time O(n), Space O(1).
+
 ### [169. Majority Element](169.c)
 *   **Strategy**: Boyer-Moore Voting Algorithm.
 *   **Approach**: Maintain a `candidate` and a `count`. If `count` is 0, pick the current number as candidate. Increment count if the current number matches the candidate, otherwise decrement. The survivor is the majority element.
