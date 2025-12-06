@@ -1,0 +1,27 @@
+[
+    {
+        "directory": "/Users/shichaopeng/Work/test/leetcode-impl",
+        "command": "gcc -std=c99 -Wall -Wextra -g -c 27.c -o 27.c.o",
+        "file": "/Users/shichaopeng/Work/test/leetcode-impl/27.c"
+    },
+    {
+        "directory": "/Users/shichaopeng/Work/test/leetcode-impl",
+        "command": "gcc -std=c99 -Wall -Wextra -g -c common.c -o common.c.o",
+        "file": "/Users/shichaopeng/Work/test/leetcode-impl/common.c"
+    },
+    {
+        "directory": "/Users/shichaopeng/Work/test/leetcode-impl",
+        "command": "gcc -std=c99 -Wall -Wextra -g -c 80.c -o 80.c.o",
+        "file": "/Users/shichaopeng/Work/test/leetcode-impl/80.c"
+    },
+    {
+        "directory": "/Users/shichaopeng/Work/test/leetcode-impl",
+        "command": "gcc -std=c99 -Wall -Wextra -g -c 88.c -o 88.c.o",
+        "file": "/Users/shichaopeng/Work/test/leetcode-impl/88.c"
+    },
+    {
+        "directory": "/Users/shichaopeng/Work/test/leetcode-impl",
+        "command": "gcc -std=c99 -Wall -Wextra -g -c 26.c -o 26.c.o",
+        "file": "/Users/shichaopeng/Work/test/leetcode-impl/26.c"
+    }
+]
