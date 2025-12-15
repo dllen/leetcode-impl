@@ -90,3 +90,8 @@ Just compile problem 88:
     2. Reverse the first `k` elements.
     3. Reverse the remaining `n-k` elements.
 *   **Complexity**: Time O(n), Space O(1).
+
+### [290. Word Pattern](290.c)
+*   **Strategy**: Hash Map (Bijection Mapping).
+*   **Approach**: Split string `s` into tokens using `strtok`. Use an array to map pattern characters to words. Verify that each pattern character maps to a unique word and vice-versa (bijection).
+*   **Complexity**: Time O(N), Space O(N).
